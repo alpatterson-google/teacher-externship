@@ -1,4 +1,4 @@
-# Teacher Externship Sample Project
+# Teacher Externship Sample Project!
 
 Welcome to the Teacher Externship sample React app! This project is designed for educators visiting Google to learn about our work culture and processes, and to help you create engaging materials for your students.
 
