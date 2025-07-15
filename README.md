@@ -1,12 +1,56 @@
-# React + Vite
+# Teacher Externship Sample Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Teacher Externship sample React app! This project is designed for educators visiting Google to learn about our work culture and processes, and to help you create engaging materials for your students.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This app showcases information about the teacher externship and displays a list of attendees. Each teacher will be responsible for creating their own profile component and adding it to the attendee list.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Scripts
+
+- **Start development server:**  
+  ```bash
+  npm run dev
+  ```
+- **Build for production:**  
+  ```bash
+  npm run build
+  ```
+- **Preview production build:**  
+  ```bash
+  npm run preview
+  ```
+- **Run tests:**  
+  ```bash
+  npm test
+  ```
+- **Lint code:**  
+  ```bash
+  npm run lint
+  ```
+
+### Directory Structure
+
+- `src/components/mini_profile/` — Contains attendee profile components.  
+  Add your own profile as a new component in this folder and update the attendee list.
+
+## Working in GitHub Codespaces
+
+- **Automatic setup:** Codespaces will automatically install dependencies on first launch.
+- **Live preview:** Use the "Ports" tab to preview your running app (`npm run dev`).
+- **Integrated terminal:** Run scripts and commands directly in the Codespaces terminal.
+- **Editor features:** Take advantage of VS Code features like IntelliSense, debugging, and source control.
+- **Testing:** Run and view test results in the integrated terminal or use the Testing sidebar.
+
+## Contributing
+
+Educators:  
+- Create your profile component in `src/components/mini_profile/`.
+- Add your profile to the attendee list in `src/components/mini_profile/mini_profile_list.jsx`.
+- Submit a pull request with your changes.
+
+## Additional Resources
+
+- [Vite Documentation](https://vitejs.dev/)
