@@ -5,7 +5,7 @@ const Welcome = () => {
         <div className="bg-white rounded-2xl shadow-xl p-12 border border-gray-100">
           <div className="mb-8">
             <h1 className="text-5xl font-bold text-gray-800 mb-4">
-              Welcome to Google! 🎉
+              Welcome to Goggle! 🎉
             </h1>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-green-500 mx-auto rounded-full"></div>
           </div>

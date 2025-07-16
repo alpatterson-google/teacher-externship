@@ -1,4 +1,9 @@
 import AlbertPatterson from './albert_patterson/albert_patterson'
+
+import JenniferCarney from './JCDir/JennCarney';
+
+import LaurenRoanZarrella from './lauren_roanzarrella/lauren_roanzarrella';
+import AlbertPatterson2 from './Tasnem_Wesley/Tasnem_Wesley';
 import JillBrady from './Jill_Brady/Jill_Brady';
 const MiniProfileList = () => {
     return (
@@ -7,6 +12,10 @@ const MiniProfileList = () => {
                 Participants
             </h2>
             <AlbertPatterson />
+            <JenniferCarney />
+
+            <LaurenRoanZarrella />
+            <AlbertPatterson2 />
             <JillBrady/>
         </div>
     );
