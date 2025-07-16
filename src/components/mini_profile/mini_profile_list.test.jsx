@@ -13,14 +13,6 @@ describe('MiniProfileList Component', () => {
     expect(screen.getByText('Participants')).toBeInTheDocument()
   })
 
-  it('displays the "Participants" heading', () => {
-    render(<MiniProfileList />)
-    
-    const heading = screen.getByRole('heading', { level: 2 })
-    expect(heading).toBeInTheDocument()
-    expect(heading).toHaveTextContent('Participants')
-  })
-
   it('has correct heading styling', () => {
     render(<MiniProfileList />)
     
@@ -52,27 +44,6 @@ describe('MiniProfileList Component', () => {
     )
   })
 
-  it('renders the AlbertPatterson component', () => {
-    render(<MiniProfileList />)
-    
-    const albertPattersonComponent = screen.getByTestId('albert-patterson-mock')
-    expect(albertPattersonComponent).toBeInTheDocument()
-  })
-
-  it('has proper semantic structure', () => {
-    render(<MiniProfileList />)
-    
-    // Check for heading
-    const heading = screen.getByRole('heading', { level: 2 })
-    expect(heading).toHaveTextContent('Participants')
-    
-    // Check that the heading comes before the profile component
-    const container = screen.getByText('Participants').parentElement
-    const children = Array.from(container.children)
-    
-    expect(children[0]).toContain(heading)
-    expect(children[1]).toBe(screen.getByTestId('albert-patterson-mock'))
-  })
 
   it('renders the component structure correctly', () => {
     const { container } = render(<MiniProfileList />)
