@@ -3,8 +3,8 @@ import AlbertPatterson from './albert_patterson/albert_patterson'
 import JenniferCarney from './JCDir/JennCarney';
 
 import LaurenRoanZarrella from './lauren_roanzarrella/lauren_roanzarrella';
-import AlbertPatterson2
- from './Tasnem_Wesley/Tasnem_Wesley';
+import AlbertPatterson2 from './Tasnem_Wesley/Tasnem_Wesley';
+import JillBrady from './Jill_Brady/Jill_Brady';
 const MiniProfileList = () => {
     return (
         <div className="flex flex-col items-center justify-center p-8 space-y-12">
@@ -16,6 +16,7 @@ const MiniProfileList = () => {
 
             <LaurenRoanZarrella />
             <AlbertPatterson2 />
+            <JillBrady/>
         </div>
     );
 };
