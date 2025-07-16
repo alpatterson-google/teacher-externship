@@ -1,4 +1,5 @@
 import AlbertPatterson from './albert_patterson/albert_patterson'
+import AlbertPatterson2 from './albert_patterson_2/albert_patterson_2';
 
 const MiniProfileList = () => {
     return (
@@ -7,6 +8,7 @@ const MiniProfileList = () => {
                 Participants
             </h2>
             <AlbertPatterson />
+            <AlbertPatterson2 />
         </div>
     );
 };
