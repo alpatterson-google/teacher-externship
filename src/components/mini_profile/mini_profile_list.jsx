@@ -1,5 +1,7 @@
 import AlbertPatterson from './albert_patterson/albert_patterson'
-
+// import AlbertPatterson2 from './Tasnem _Wesley/Tasnem _Wesley'
+import AlbertPatterson2
+ from './Tasnem_Wesley/Tasnem_Wesley';
 const MiniProfileList = () => {
     return (
         <div className="flex flex-col items-center justify-center p-8 space-y-12">
@@ -7,6 +9,7 @@ const MiniProfileList = () => {
                 Participants
             </h2>
             <AlbertPatterson />
+            <AlbertPatterson2 />
         </div>
     );
 };
