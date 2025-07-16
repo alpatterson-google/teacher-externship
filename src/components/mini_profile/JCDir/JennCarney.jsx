@@ -2,7 +2,7 @@ import albertImage from '../../../assets/Me.jpg';
 
 const JenniferCarney = () => {
   return (
-    <div className="max-w-sm mx-auto bg-white rounded-lg shadow-md overflow-hidden">
+    <div className="max-w-sm mx-auto bg-green-200 rounded-lg shadow-md overflow-hidden">
       <div className="p-6">
         <div className="bg-green-100 flex flex-col items-center">
           <img 
@@ -25,7 +25,7 @@ const JenniferCarney = () => {
             </div>
             <div className="flex justify-between items-center py-2">
               <span className="text-black-600 font-bold">Certifications:</span>
-              <span className="text-gray-800">General Education EC-4, Special Education EC-12, ESL, Certified Teacher of Students with Visual Impairments, Braille, National Board for Professional Teaching Standards Certified</span>
+              <span className="text-gray-800 text-center">General Education EC-4, Special Education EC-12, ESL, Certified Teacher of Students with Visual Impairments, Braille, National Board for Professional Teaching Standards Certified</span>
             </div>
           </div>
           <div className="mt-4 flex space-x-3">
