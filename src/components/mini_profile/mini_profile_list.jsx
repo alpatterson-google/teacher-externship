@@ -1,4 +1,4 @@
-import AlbertPatterson from './albert_patterson/albert_patterson'
+import PatrickMaestas from './patrick_maestas/patrick_maestas'
 
 const MiniProfileList = () => {
     return (
@@ -6,7 +6,7 @@ const MiniProfileList = () => {
             <h2 className="text-2xl font-bold text-gray-800 mb-2 border-b-2 border-gray-200 pb-2 w-full text-center">
                 Participants
             </h2>
-            <AlbertPatterson />
+            <PatrickMaestas />
         </div>
     );
 };
