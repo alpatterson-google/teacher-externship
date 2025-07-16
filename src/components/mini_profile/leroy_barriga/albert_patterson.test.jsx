@@ -74,7 +74,7 @@ describe('AlbertPatterson Component', () => {
     
     // Check for heading
     const heading = screen.getByRole('heading', { level: 2 })
-    expect(heading).toHaveTextContent('Albert Patterson')
+    expect(heading).toHaveTextContent('LB-Branch')
     
     // Check for image
     const image = screen.getByRole('img')
